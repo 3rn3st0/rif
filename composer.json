@@ -1,0 +1,25 @@
+{
+    "name": "3rn3st0/rif",
+    "description": "Validador/generador de números de RIF",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernesto Chapon",
+            "email": "ernestochapon@gmail.com"
+        }
+    ],
+    "require":{},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "3rn3st0\\Rif\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../Rif"
+        }
+    ]
+}
